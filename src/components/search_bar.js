@@ -15,6 +15,7 @@ class SearchBar extends React.Component {
     return (
       <div className="col-sm-12 search-bar">
         <input className="form-control"
+          placeholder="Type a word to seach videos from youtube..."
           value={this.state.value}
           onChange={event => this.onInputChange(event.target.value)}/>
         {/*<input onChange={event => this.setState({ term: event.target.value })}/>*/}
